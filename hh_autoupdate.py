@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-driver = webdriver.Firefox(executable_path="/home/fruity/Downloads/hh/79/geckodriver")
+driver = webdriver.Firefox(executable_path="/path/geckodriver")
 
 driver.get('https://hh.ru/account/login')
 
